@@ -1,4 +1,4 @@
-package Training.week_4;
+package Training.week_4.classes;
 
 public class Student 
 {

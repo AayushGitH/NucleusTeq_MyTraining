@@ -1,4 +1,4 @@
-package Training.week_4;
+package Training.week_4.classes;
 
 import java.util.ArrayList;
 import java.util.Arrays;
