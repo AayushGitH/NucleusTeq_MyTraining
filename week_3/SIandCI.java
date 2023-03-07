@@ -1,3 +1,4 @@
+// Program for calculating simple and compound interest 
 package Training.week_3;
 
 import java.util.Scanner;

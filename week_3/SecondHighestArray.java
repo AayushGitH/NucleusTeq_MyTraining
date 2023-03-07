@@ -1,3 +1,4 @@
+// This program is for finding second highest element in an Array
 package Training.week_3;
 
 import java.util.Arrays;
