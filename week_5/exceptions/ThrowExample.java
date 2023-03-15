@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 
 public class ThrowExample 
 {
-	public static void checkedmethod(int i) 
+	public static void uncheckedmethod(int i) 
 	{
 		if(i>21)
 		{
@@ -15,7 +15,7 @@ public class ThrowExample
 			System.out.println("You are eligible to the fancy dress competition");
 		}
 	}
-	public static void uncheckedmethod(int age) throws FileNotFoundException
+	public static void checkedmethod(int age) throws FileNotFoundException
 	{
 		if(age>21)
 		{
@@ -30,10 +30,10 @@ public class ThrowExample
 	public static void main(String...args)
 	{
 		System.out.println("Program of throw keyword");
-		//checkedmethod(23); // Throwing checked exception
+		// uncheckedmethod(29); // Throwing unchecked exception
 		try 
 		{
-			uncheckedmethod(29); // Throwing unchecked exception
+			checkedmethod(23); // Throwing checked exception
 		}
 		catch(Exception e)
 		{
