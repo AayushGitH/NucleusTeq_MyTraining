@@ -81,13 +81,13 @@ public class Student
 		{
 			if(calculateAverage()>60)
 			{
-				System.out.println("First grade");
-				System.out.println("Pass");
+				
+				System.out.println("First class pass");
 			}
 			else
 			{
-				System.out.println("Second grade");
-				System.out.println("Fail");
+				
+				System.out.println("Third class fail");
 			}
 		}
 }
