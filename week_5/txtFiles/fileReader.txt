@@ -1,3 +1,0 @@
-Content for the file reader 
-and this is the second line in the file
-This is the @@#$#$# line in the file
