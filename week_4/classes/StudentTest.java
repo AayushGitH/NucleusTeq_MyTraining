@@ -21,7 +21,7 @@ public class StudentTest
 		
 		for(Student student: stlist)
 		{
-			System.out.println(student.getName());
+			System.out.println(student.getName() + " " + student.calculateAverage());
 		}
 		
 	}

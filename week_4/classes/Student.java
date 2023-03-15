@@ -2,7 +2,7 @@ package Training.week_4.classes;
 
 public class Student 
 {
-	// Properties
+		// Properties
 		private int rollNumber;
 		private String name;
 		private String course;
