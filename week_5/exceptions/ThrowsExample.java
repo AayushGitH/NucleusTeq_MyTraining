@@ -17,6 +17,18 @@ public class ThrowsExample
 			e.printStackTrace();
 		}
 	}
+	public static void method2() throws ArithmeticException
+	{
+		try
+		{
+			System.out.println("Throwing unchecked exception");
+			throw new ArithmeticException();
+		}
+		catch(ArithmeticException e)
+		{
+			e.printStackTrace();
+		}
+	}
 	public static void main(String...args)
 	{
 		System.out.println("Program of throws keyword in java");
@@ -28,5 +40,6 @@ public class ThrowsExample
 		{
 			e.printStackTrace();
 		}
+		method2(); // here we are calling it directly without any try catch block
 	}
 }
