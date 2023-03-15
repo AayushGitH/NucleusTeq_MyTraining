@@ -33,7 +33,7 @@ public class OperationFile
 	public static void updateEmployee(Employee emp) 
 	{
 		try
-		{1
+		{
 			FileOutputStream fileout = new FileOutputStream("src/training/week_6/FMSfiles/" + "emp" + emp.getEid() + ".txt");
 			ObjectOutputStream out = new ObjectOutputStream(fileout);
 			out.writeObject(emp);
