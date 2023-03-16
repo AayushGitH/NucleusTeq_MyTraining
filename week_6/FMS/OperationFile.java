@@ -80,6 +80,17 @@ public class OperationFile
 			e.printStackTrace();
 		}
 	}
+	
+	// Method for fetching all the file names in the folder
+	public static void getFiles()
+	{
+		File file = new File("src/training/week_6/FMSfiles");
+		String[] filelist = file.list();
+		for(String fl : filelist)
+		{
+			System.out.println(fl);
+		}
+	}
 
 	public static void main(String... args) 
 	{
@@ -93,7 +104,8 @@ public class OperationFile
 			System.out.println("Enter 2 for edit an Employee");
 			System.out.println("Enter 3 for delete an Employee");
 			System.out.println("Enter 4 for get an Employee");
-			System.out.println("Enter 5 for exit");
+			System.out.println("Enter 5 to get all the under the Employee folder");
+			System.out.println("Enter 6 for exit");
 			System.out.println();
 			System.out.print("Enter your choice -> ");
 			input = sc.nextInt();
@@ -151,9 +163,14 @@ public class OperationFile
 				break;
 
 			case 5:
+				System.out.println("Below are the files present in the foler ");
+				getFiles();
+				break;
+				
+			case 6:
 				break;
 			}
-		} while (input != 5);
+		} while (input != 6);
 
 		System.out.println("\n \n \n \n \n");
 		System.out.println("Thank you for your visit !!");
