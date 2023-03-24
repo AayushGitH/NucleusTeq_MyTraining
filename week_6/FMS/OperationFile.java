@@ -159,11 +159,12 @@ public class OperationFile
 			case 4:
 				System.out.println("Enter the id of an Employee you want to display");
 				int idd = sc.nextInt();
+				System.out.println("Here is the Employee you entered to see");
 				getEmployee(idd);
 				break;
 
 			case 5:
-				System.out.println("Below are the files present in the foler ");
+				System.out.println("Below are the files present in the folder\n");
 				getFiles();
 				break;
 				
