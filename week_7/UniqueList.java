@@ -1,3 +1,4 @@
+// Program demonstrating storing only unique values in a list
 package Training.week_7;
 
 import java.util.ArrayList;
