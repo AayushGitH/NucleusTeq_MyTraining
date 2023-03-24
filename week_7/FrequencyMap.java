@@ -1,3 +1,4 @@
+// Program demonstrating to finding the element frequencies from an array and a string
 package Training.week_7;
 
 import java.util.HashMap;
