@@ -21,5 +21,11 @@ public class UniqueList
 		// For storing distinct values in a list
 		list = list.stream().distinct().collect(Collectors.toList());
 		System.out.println(list);
+		
+		List<String> newlist = null;
+		// Soting the list
+		newlist = list.stream().sorted().collect(Collectors.toList());
+		System.out.println(newlist);
+		System.out.println(list);
 	}
 }
