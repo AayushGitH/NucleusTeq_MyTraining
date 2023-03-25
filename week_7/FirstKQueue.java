@@ -4,11 +4,8 @@ package Training.week_7;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Scanner;
-import java.util.Stack;
 
 public class FirstKQueue 
 {
