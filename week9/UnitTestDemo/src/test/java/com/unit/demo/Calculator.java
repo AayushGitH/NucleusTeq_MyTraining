@@ -1,4 +1,4 @@
-package Training.week9.UnitTestDemo.src.main.java.com.unit.demo;
+package Training.week9.UnitTestDemo.src.test.java.com.unit.demo;
 
 public class Calculator 
 {
